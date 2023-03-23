@@ -5,7 +5,7 @@ import { TEMPLATES } from "../constants/templates";
 
 const HomePage: React.FC = () => {
   return (
-    <Layout title="">
+    <Layout title="gpt">
       <CardGrid cards={TEMPLATES} />
     </Layout>
   );
